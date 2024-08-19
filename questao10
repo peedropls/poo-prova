@@ -1,0 +1,9 @@
+Console.WriteLine("digite o valor em reais que você quer converter:");
+double reais = double.Parse(Console.ReadLine());
+ 
+Console.WriteLine("digite a taxa de câmbio:");
+double taxaDeCambio = double.Parse(Console.ReadLine());
+
+
+double convertido = reais / taxaDeCambio;
+Console.WriteLine($"o valor convertido é igual a {convertido}");
